@@ -42,7 +42,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
             {
                 buttonId: ".menu",
                 buttonText: {
-                    displayText: 'MENU BOT'
+                    displayText: '📚 𝐌𝐄𝐍Ú 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎 📚'
                 },
                 type: 1
             }
