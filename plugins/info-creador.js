@@ -24,7 +24,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let username = conn.getName(m.sender);
 
     // VCARD
-    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;  ૈANGELITO 🍃\nNICKNAME:👤 іzᥙmі.kz᥊\nORG: ૈіzᥙmі.kz᥊ ᰔᩚ\nTITLE:soft\nitem1.TEL;waid=51939249284:+51 939 249 284\nitem1.X-ABLabel:📞 WhatsApp Owner\nitem2.URL:https://github.com/Angelito-OFC\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET: agasistencia2@gmail.com\nitem3.X-ABLabel:💌 Correo soporte\nitem4.ADR:;;🇦🇷 Argentina;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel: Localización 🫧\nBDAY;value=date:🤍 09-12-2007\nEND:VCARD`;
+    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;  ૈANGELITO 🍃\nNICKNAME:👤 ✅ 𝐒𝐎𝐏𝐎𝐑𝐓𝐄 𝐗 𝐕𝐄𝐍𝐓𝐀𝐒\nORG: ✅ 𝐒𝐎𝐏𝐎𝐑𝐓𝐄 𝐗 𝐕𝐄𝐍𝐓𝐀𝐒\nTITLE:soft\nitem1.TEL;waid=51939249284:+51 939 249 284\nitem1.X-ABLabel:📞 WhatsApp Owner\nitem2.URL:https://github.com/Angelito-OFC\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET: agasistencia2@gmail.com\nitem3.X-ABLabel:💌 Correo soporte\nitem4.ADR:;;🇦🇷 Argentina;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel: Localización 🫧\nBDAY;value=date:🤍 09-12-2007\nEND:VCARD`;
 
     const tag_own = await conn.sendMessage(m.chat, { 
         contacts: { 
