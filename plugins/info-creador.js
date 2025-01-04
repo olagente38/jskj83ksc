@@ -33,11 +33,11 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         }
     }, { quoted: estilo });
 
-    let txt = `👋 *Hola \`${username}\` este es*\n*el contacto de mi creador*`;
+    let txt = `*[👋]* *𝐇𝐨𝐥𝐚, 𝐭𝐞 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐨 𝐞𝐥 𝐧ú𝐦𝐞𝐫𝐨 𝐝𝐞 𝐦𝐢 𝐜𝐫𝐞𝐚𝐝𝐨𝐫 𝐞𝐧 𝐜𝐚𝐬𝐨 𝐝𝐞 𝐪𝐮𝐞 𝐧𝐞𝐜𝐞𝐬𝐢𝐭𝐞𝐬 𝐜𝐨𝐧𝐭𝐚𝐜𝐭𝐚𝐫𝐥𝐨.*`;
 
     await conn.sendMessage(m.chat, {
         text: txt,
-        footer: '© ᥴrᥱᥲძ᥆r ᥆𝖿іᥴіᥲᥣ іzᥙmі.kz᥊',
+        footer: 'ᴏᴡɴᴇʀ ᴍɪᴢᴜᴋɪ ᴀɪ',
         buttons: [
             {
                 buttonId: ".menu",
