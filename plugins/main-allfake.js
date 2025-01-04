@@ -31,14 +31,14 @@ console.log(`Error : ${e}`)
 global.creador = 'Wa.me/5493876432076'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'https://wa.me/message/O4QPPHZOFDOJI1'
-global.namechannel = '✿ Genesis • Channel OFC ✿'
+global.namechannel = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 | 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌺'
 global.listo = '✨️ *Aquí tienes ฅ^•ﻌ•^ฅ*'
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
 
 //ids channel
-global.channelid = '120363220939514640@newsletter'
-global.canalIdYL = ["120363220939514640@newsletter", "120363205895430548@newsletter", "120363383239813951@newsletter", "120363233459118973@newsletter", "120363343366246815@newsletter"]
-global.canalNombreYL = ["✿ Genesis • Channel OFC ✿", "TK • Hosting ☁️", "Sociedad • TK 🫂", "Diario de Joan TK ✍️", "Canal de Izumi-kzx ☁️"]
+global.channelid = '120363316264159575@newsletterr'
+global.canalIdYL = ["120363316264159575@newsletter", "120363316264159575@newsletter", "120363316264159575@newsletter", "120363316264159575@newsletter", "120363316264159575@newsletter"]
+global.canalNombreYL = ["🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 | 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌺"]
 global.channelRD = await getRandomChannel()
 
 //fechas
@@ -101,12 +101,9 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://pomf2.lain.la/f/rycjgv2t.jpg',
-'https://pomf2.lain.la/f/vvqlvsjy.jpg',
-'https://pomf2.lain.la/f/w9b070dp.jpg',
-'https://pomf2.lain.la/f/mj970w6x.jpg',
-'https://pomf2.lain.la/f/9laq0peo.jpg',
-'https://pomf2.lain.la/f/mcqdpzko.jpg'
+'https://qu.ax/eOTEH.jpeg',
+'https://qu.ax/eOTEH.jpeg',
+'https://qu.ax/eOTEH.jpeg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: namebot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
