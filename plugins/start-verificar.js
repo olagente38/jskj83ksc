@@ -51,7 +51,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   txt += `\`︶︶︶︶︶︶︶︶︶︶︶︶\``;
 //  txt += `> Escribe *${usedPrefix}profile* para ver tu perfil.`;
 
-  let dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ іzᥙmі.kz᥊';
+  let dev = 'ᴍɪᴢᴜᴋɪ ᴀɪ ᴏꜰɪᴄɪᴀʟ';
 
   // Enviar mensaje con imagen
   await conn.sendMessage(m.chat, {
