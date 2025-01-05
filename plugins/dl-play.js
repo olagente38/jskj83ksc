@@ -29,13 +29,13 @@ let handler = async (m, { conn, args }) => {
         {
           buttonId: `.ytmp3 https://youtu.be/${video.videoId}`,
           buttonText: {
-            displayText: '🎵 Audio',
+            displayText: '🎵 ＡＵＤＩＯ',
           },
         },
         {
           buttonId: `.ytmp4 https://youtu.be/${video.videoId}`,
           buttonText: {
-            displayText: '🎥 Video',
+            displayText: '🎥 ＶＩＤＥＯ',
           },
         },
       ],
