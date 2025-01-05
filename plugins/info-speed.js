@@ -22,11 +22,11 @@ let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g
 
 let texto = `ㅤㅤㅤ *\`ＭＩＺＵＫＩ | ＡＩ\`*\nㅤㅤ🌩️ *\`ＶＥＬＯＣＩＤＡＤ\`* 🌩️
 
-[🚀] 𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃 » ${latensi.toFixed(4)}
+*[🚀]* *𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃* *»* ${latensi.toFixed(4)}
 
-[🕒] 𝐀𝐂𝐓𝐈𝐕𝐎 𝐃𝐔𝐑𝐀𝐍𝐓𝐄 » ${muptime}
+*[🕒]* *𝐀𝐂𝐓𝐈𝐕𝐎 𝐃𝐔𝐑𝐀𝐍𝐓𝐄* *»* ${muptime}
 
-[🏆] 𝐒𝐄𝐑𝐕𝐈𝐃𝐎𝐑 𝐑𝐀𝐌 » ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
+*[🏆]* *𝐒𝐄𝐑𝐕𝐈𝐃𝐎𝐑 𝐑𝐀𝐌* *»* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
 
 m.react('✈️')
 
