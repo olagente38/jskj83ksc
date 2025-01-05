@@ -166,7 +166,7 @@ if (_0x4ea9f2) {
             'image': await _0x36edb8.toBuffer(_0x3a7bea, {
               'scale': 0x8
             }),
-            'caption': "✿ *Vincula tu cuenta usando el Qr.*\n\n_✰ Sigue las *instrucciones* :_\n\n`1` » Haga clic en los tres puntos en la esquina superior derecha\n\n`2` » Toca dispositivos vinculados\n\n`3` » Escanee este codigo QR para iniciar sesión\n\n *¡Este código QR expira en 45 segundos!*\n\n> *✰ Nota :* _Con otro celular o en la PC escanea este QR para convertirte en un Sub Bot_\n> *✿ Aviso :* _No es recomendable ser subbot en tu numero principal_" + _0x261df0.toString("utf-8")
+            'caption': "ㅤㅤㅤ *\`ＭＩＺＵＫＩ | ＡＩ\`*\nㅤㅤㅤㅤ*🤖 \`ＳＵＢ ＢＯＴ\` 🤖*\n\n✿ *Vincula tu cuenta usando el Qr.*\n\n_✰ Sigue las *instrucciones* :_\n\n`1` » Haga clic en los tres puntos en la esquina superior derecha\n\n`2` » Toca dispositivos vinculados\n\n`3` » Escanee este codigo QR para iniciar sesión\n\n *¡Este código QR expira en 45 segundos!*\n\n> *✰ Nota :* _Con otro celular o en la PC escanea este QR para convertirte en un Sub Bot_\n> *✿ Aviso :* _No es recomendable ser subbot en tu numero principal_" + _0x261df0.toString("utf-8")
           }, {
             'quoted': _0x229076
           });
