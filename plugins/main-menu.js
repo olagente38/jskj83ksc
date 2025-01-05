@@ -44,7 +44,7 @@ const defaultMenu = {
 *┊ 🧑‍🤝‍🧑* 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 ➔ %totalreg
  ︶︶︶︶︶︶︶︶︶︶︶︶
  `.trimStart(),
-  header: ' ︿︿︿︿︿︿︿︿︿︿︿︿\n┊ ⚒️ 「 `%category` 」⚒️\n ︶︶︶︶︶︶︶︶︶︶︶︶',
+  header: ' ︿︿︿︿︿︿︿︿︿︿︿︿\n┊  %category \n ︶︶︶︶︶︶︶︶︶︶︶︶',
   body: '*┊ 🔖* _%cmd_',
   footer: ' ︶︶︶︶︶︶︶︶︶︶︶︶\n',
   after: ``,
@@ -53,7 +53,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command }) => {
 
   let tags = {
     "main": "🌟 「 *`PRINCIPAL`* 」 🌟",
-    "tk": "💻 「 *`TK-HOSTING`* 」 💻",
     "info": "ℹ️ 「 *`INFORMACION`* 」 ℹ️",
     "search": "🔍 「 *`SEARCH`* 」 🔍",
     "rpg": "🎮 「 *`RPG`* 」 🎮",
@@ -225,12 +224,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-    let img = 'https://i.ibb.co/6mvk6Xn/1a35aec3-8ce2-4e46-97ad-cf080ab4ee69.png'
+    let img = 'https://qu.ax/xzBMl.jpg'
     await m.react('🤍')
     await conn.sendMessage(m.chat, {
       image: { url: img },
       caption: estilo(text),
-      footer: ' ©️ ρσωε૨ ɓყ ƭεαɱ รƭα૨૮σ૨ε',
+      footer: '*ᴍɪᴢᴜᴋɪ ᴀɪ - ᴍᴇɴú ᴄᴏᴍᴘʟᴇᴛᴏ*',
       buttons: [
         {
           buttonId: `.ping`,
