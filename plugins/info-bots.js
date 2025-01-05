@@ -24,7 +24,8 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let username = conn.getName(m.sender);
 
     // VCARD
-    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;  ૈANGELITO 🍃\nNICKNAME:👤 💗 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 | 𝟏 💗\nORG: 💗 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 | 𝟏 💗\nTITLE:soft\nitem1.TEL;waid=51970198114:+51 970 198 114\nitem1.X-ABLabel:📞 WhatsApp Owner\nitem2.URL:https://github.com/Angelito-OFC\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET: agasistencia2@gmail.com\nitem3.X-ABLabel:💌 Correo soporte\nitem4.ADR:;;🇦🇷 Argentina;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel: Localización 🫧\nBDAY;value=date:🤍 09-12-2007\nEND:VCARD`;
+    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;  ૈANGELITO 🍃\nNICKNAME:👤 💗 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 | 𝟐 💗\nORG: 💗 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 | 𝟐 💗\nTITLE:soft\nitem1.TEL;waid=51970198114:+51 970 198 114\nitem1.X-ABLabel:📞 WhatsApp Owner\nitem2.URL:https://github.com/Angelito-OFC\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET: agasistencia2@gmail.com\nitem3.X-ABLabel:💌 Correo soporte\nitem4.ADR:;;🇦🇷 Argentina;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel: Localización 🫧\nBDAY;value=date:🤍 09-12-2007\nEND:VCARD`;
+    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;  ૈANGELITO 🍃\nNICKNAME:👤 💗 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 | 𝟐 💗\nORG: 💗 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 | 𝟐 💗\nTITLE:soft\nitem1.TEL;waid=595982907261:+595 982 907261\nitem1.X-ABLabel:📞 WhatsApp Owner\nitem2.URL:https://github.com/Angelito-OFC\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET: agasistencia2@gmail.com\nitem3.X-ABLabel:💌 Correo soporte\nitem4.ADR:;;🇦🇷 Argentina;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel: Localización 🫧\nBDAY;value=date:🤍 09-12-2007\nEND:VCARD`;
 
     const tag_own = await conn.sendMessage(m.chat, { 
         contacts: { 
