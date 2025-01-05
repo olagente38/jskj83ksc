@@ -48,7 +48,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   txt += `*┊ 🫛* *𝐄𝐃𝐀𝐃* *»* ${age} años\n`;
   txt += `*┊ 📆* *𝐅𝐄𝐂𝐇𝐀* *»* ${fecha}\n`;
   txt += `*┊ 📝* *𝐍° 𝐒𝐄𝐑𝐈𝐄* *»* ${sn}\n`;
-  txt += `︶︶︶︶︶︶︶︶︶︶︶︶`;
+  txt += `︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶`;
 //  txt += `> Escribe *${usedPrefix}profile* para ver tu perfil.`;
 
   let dev = 'ᴍɪᴢᴜᴋɪ ᴀɪ ᴏꜰɪᴄɪᴀʟ';
