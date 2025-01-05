@@ -13,7 +13,6 @@ let handler = async (m, { conn, text }) => {
 
   try {
     let api = await fetch(`https://api.giftedtech.my.id/api/download/dlmp3?apikey=gifted&url=${text}`)
-    // Verifica si la respuesta no es JSON
     const contentType = api.headers.get('content-type');
     if (!contentType || !contentType.includes('application/json')) {
       const textResponse = await api.text(); // Obtener el cuerpo como texto
@@ -35,7 +34,7 @@ let handler = async (m, { conn, text }) => {
     }, { quoted: m })
   } catch (error) {
     console.error(error)
-    m.reply(`❀ Error: ${error.message}`);
+    m.reply("❀ Error al procesar la URL. La API está fuera de servicio o no válida. Inténtalo más tarde.");
   }
 }
 
