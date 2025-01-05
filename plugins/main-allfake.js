@@ -28,12 +28,12 @@ console.log(`Error : ${e}`)
 }}
 
 //creador y otros
-global.creador = 'Wa.me/5493876432076'
+global.creador = 'Wa.me/51939249284'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'https://wa.me/message/O4QPPHZOFDOJI1'
+global.asistencia = 'https://wa.me/51939249284'
 global.namechannel = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 | 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌺'
 global.listo = '✨️ *Aquí tienes ฅ^•ﻌ•^ฅ*'
-global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
+global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/xzBMl.jpg')
 
 //ids channel
 global.channelid = '120363316264159575@newsletterr'
@@ -91,7 +91,7 @@ global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
 global.sticker1 = `☁️Usuario: ${nombre}
-☁️ Creador: Izumi-kzx • ☁️ Fecha: ${fecha}`;
+☁️ Creador: Mizuki • ☁️ Fecha: ${fecha}`;
 global.sticker2 = `☁️Bot: ${botname}`
 
 //Fakes
@@ -101,9 +101,9 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://qu.ax/eOTEH.jpeg',
-'https://qu.ax/eOTEH.jpeg',
-'https://qu.ax/eOTEH.jpeg'
+'https://qu.ax/xzBMl.jpg',
+'https://qu.ax/xzBMl.jpg',
+'https://qu.ax/xzBMl.jpg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: namebot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
