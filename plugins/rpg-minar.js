@@ -28,7 +28,7 @@ let handler = async (m, { conn }) => {
 🕋 *Carbón*: ${coal}
 🪨 *Piedra*: ${stone}`
 
-    conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '😊 *Minando.. - Genesis* 🚩', 'status@broadcast' )
+    conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '😊 *Minando.. - Mizuki Ai* 🚩', 'status@broadcast' )
     await m.react('⛏️')
 
     user.health -= 50
