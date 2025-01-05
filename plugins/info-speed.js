@@ -20,19 +20,13 @@ let chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats
 let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
 
 
-let texto = `🚩 *${global.botname}*
-🚀 *Velocidad:*
-→ ${latensi.toFixed(4)}
+let texto = `ㅤㅤㅤ *\`ＭＩＺＵＫＩ | ＡＩ\`*\nㅤㅤ🌩️ *\`ＶＥＬＯＣＩＤＡＤ\`* 🌩️
 
-🕒 *Activo Durante:*
-→ ${muptime}
+[🚀] 𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃 » ${latensi.toFixed(4)}
 
-💫 *Chats:*
-→ ${chats.length} *Chats privados*
-→ ${groups.length} *Grupos*
+[🕒] 𝐀𝐂𝐓𝐈𝐕𝐎 𝐃𝐔𝐑𝐀𝐍𝐓𝐄 » ${muptime}
 
-🏆 *Servidor:*
-➤ *Ram ⪼* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
+[🏆] 𝐒𝐄𝐑𝐕𝐈𝐃𝐎𝐑 𝐑𝐀𝐌 » ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
 
 m.react('✈️')
 
