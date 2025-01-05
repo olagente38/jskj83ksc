@@ -3,7 +3,7 @@ let handler = async (m, { conn, usedPrefix, isRowner}) => {
 let _muptime
 let totalreg = Object.keys(global.db.data.users).length
 let totalchats = Object.keys(global.db.data.chats).length
-let pp = 'https://qu.ax/JceST.jpg'
+let pp = 'https://qu.ax/xzBMl.jpg'
 if (process.send) {
 process.send('uptime')
 _muptime = await new Promise(resolve => {
@@ -20,18 +20,16 @@ let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
 const used = process.memoryUsage()
-let yaemori = `⭐️ \`\`\`Información - Genesis-Ai\`\`\` ⭐️\n\n`
-yaemori += `🌺꙰᠁❥ *◜Creador◞* ⇢ Izumi.kzx\n`
-yaemori += `🌻꙰᠁❥ *◜Prefijo◞* ⇢ [ ${usedPrefix} ]\n`
-yaemori += `🌺꙰᠁❥ *◜Versión◞* ⇢ ${vs}\n`
-yaemori += `🌻꙰᠁❥ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
-yaemori += `🌺꙰᠁❥ *◜Total De Chats◞* ⇢ ${chats.length}\n`
-yaemori += `🌻꙰᠁❥ *◜Usuarios◞* ⇢ ${totalreg}\n`
-yaemori += `🌺꙰᠁❥ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
-yaemori += `🌻꙰᠁❥ *◜Grupos◞* ⇢ ${groupsIn.length}\n`
-yaemori += `🌺꙰᠁❥ *◜Actividad◞* ⇢ ${muptime}\n`
-yaemori += `🌻꙰᠁❥ *◜Velocidad◞* ⇢ ${(speed * 1000).toFixed(0) / 1000}\n`
-yaemori += `🌺꙰᠁❥ *◜SubBots Activos◞* ⇢ ${totalUsers || '0'}`
+let yaemori = `ㅤㅤㅤ *\`ＭＩＺＵＫＩ | ＡＩ\`*\nㅤㅤㅤ✅ *\`ＥＳＴＡＤＯ\`* ✅\n\n`
+yaemori += `*[👤]* *𝐂𝐑𝐄𝐀𝐃𝐎𝐑* *»* SpectrumOfc\n`
+yaemori += `*[❄️]* *𝐏𝐑𝐄𝐅𝐈𝐉𝐎* *» [ ${usedPrefix} ]\n`
+yaemori += `*[⚙️]* *𝐕𝐄𝐑𝐒𝐈Ó𝐍* *»* ${vs}\n`
+yaemori += `*[🔐]* *𝐂𝐇𝐀𝐓𝐒 𝐏𝐑𝐈𝐕𝐀𝐃𝐎𝐒* *»* ${chats.length - groupsIn.length}\n`
+yaemori += `*[📝]* *𝐓𝐎𝐓𝐀𝐋 𝐃𝐄 𝐂𝐇𝐀𝐓𝐒* *»* ${chats.length}\n`
+yaemori += `*[👥]* *𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒* *»* ${totalreg}\n`
+yaemori += `*[📩]* *𝐆𝐑𝐔𝐏𝐎𝐒* *»* ${groupsIn.length}\n`
+yaemori += `*[💨]* *𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃* *»* ${(speed * 1000).toFixed(0) / 1000}\n`
+yaemori += `*[📌]* *𝐒𝐔𝐁𝐁𝐎𝐓𝐒 𝐀𝐂𝐓𝐈𝐕𝐎𝐒* *»* ${totalUsers || '0'}`
 await conn.sendFile(m.chat, pp, 'yaemori.jpg', yaemori, fkontak, null, rcanal)
 }
 handler.help = ['status']
