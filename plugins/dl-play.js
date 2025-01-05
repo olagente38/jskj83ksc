@@ -12,7 +12,20 @@ let handler = async (m, { conn, args }) => {
   try {
     let res = await search(args.join(" "));
     let video = res[0];
-    let img = await (await fetch(video.image)).buffer();
+
+    // Verificar que el video esté definido y tenga un videoId
+    if (!video || !video.videoId) {
+      return conn.reply(m.chat, '*[🎧]* *»* *No se pudo encontrar el video.*', m);
+    }
+
+    // Obtener la imagen con manejo de errores
+    let img;
+    try {
+      img = await (await fetch(video.image)).buffer();
+    } catch (e) {
+      console.error("Error al obtener la imagen:", e);
+      img = 'default_image_url'; // Usa una URL por defecto o alguna imagen de respaldo
+    }
 
     let txt = `ㅤㅤㅤ *\`ＤＥＳＣＡＲＧＡＳ\`*\nㅤㅤㅤㅤ *🎧 \`ＰＬＡＹ\` 🎧*\n\n`;
     txt += `• *[🍿]* *𝐓Í𝐓𝐔𝐋𝐎* *»* ${video.title}\n\n`;
