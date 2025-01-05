@@ -32,15 +32,13 @@ const defaultMenu = {
 *┊ 👤* 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 ➔ %name
 *┊ 🌟* 𝐄𝐗𝐏 ➔ %exp
 *┊ 🌍* 𝐏𝐀𝐈𝐒 ➔ %pais
-*┊ 🍫* 𝐂𝐇𝐎𝐂𝐎𝐋𝐀𝐓𝐄𝐒 ➔ %chocolates
 *┊ 🎚️* 𝐍𝐈𝐕𝐄𝐋 ➔ %level
  ︶︶︶︶︶︶︶︶︶︶︶︶
  ︿︿︿︿︿︿︿︿︿︿︿︿
 ┊ 🪄 「 \`𝐈𝐍𝐅𝐎 | 𝐁𝐎𝐓\` 」 🪄
  ︶︶︶︶︶︶︶︶︶︶︶︶
-*┊ 🧑‍🎨* 𝐌𝐀𝐃𝐄 𝐁𝐘 ➔ SpectrumOfc
-*┊ 🤖* 𝐁𝐎𝐓 ➔ %botofc
-*┊ 📅* 𝐅𝐄𝐂𝐇𝐀 ➔ %fecha
+*┊ 🧑‍🎨* 𝐌𝐀𝐃𝐄 𝐁𝐘 ➔ SpecttumOfc
+*┊ 🤖* 𝐁𝐎𝐓 ➔ Mizuki Ai
 *┊ 🧑‍🤝‍🧑* 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 ➔ %totalreg
  ︶︶︶︶︶︶︶︶︶︶︶︶
  `.trimStart(),
