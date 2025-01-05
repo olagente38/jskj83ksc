@@ -12,7 +12,7 @@ let handler = async (m, { conn, text }) => {
   }
 
   try {
-    let api = await fetch(`https://api.giftedtech.my.id/api/download/dlmp3?apikey=gifted&url=${text}`)
+    let api = await fetch(`https://api.zenkey.my.id/api/download/ytmp3?apikey=zenkey&url=${yt_play[0].url}`)
     let json = await api.json()
     let { quality, title, download_url } = json.result
 
