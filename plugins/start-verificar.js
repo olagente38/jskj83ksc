@@ -12,7 +12,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   }
   if (!Reg.test(text)) {
     return m.reply(
-      `*[ ✰ ] Por favor, ingresa tu nombre de usuario para proceder con el registro.*\n\n*🤍 Ejemplo de Uso* :\n*${usedPrefix + command}* Angel.19`
+      `ㅤㅤㅤ *📝 ＲＥＧＩＳＴＲＯ 📝*\n*[✏️]* *»* *𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐩𝐫𝐨𝐩𝐨𝐫𝐜𝐢𝐨𝐧𝐚 𝐭𝐮 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐩𝐚𝐫𝐚 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐜𝐨𝐧 𝐞𝐥 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐨.*\n\nㅤㅤㅤ *✅ ＥＪＥＭＰＬＯ ✅*\n\n*[🚨]* *»*\n*${usedPrefix + command}* *𝐍𝐨𝐦𝐛𝐫𝐞.𝐄𝐝𝐚𝐝*`
     );
   }
 
