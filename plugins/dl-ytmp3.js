@@ -4,7 +4,7 @@ let handler = async (m, { conn, text }) => {
   if (!text) {
     return m.reply("❀ Por favor, ingresa una URL válida de YouTube.")
   }
-  await m.react('🕓')
+    await m.react('🕓')
 
   let ytUrlRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/;
   if (!ytUrlRegex.test(text)) {
@@ -12,33 +12,18 @@ let handler = async (m, { conn, text }) => {
   }
 
   try {
-    let api = await fetch(`https://api.zenkey.my.id/api/download/ytmp3?apikey=zenkey&url=${text}`)
+    let api = await fetch(`https://api.giftedtech.my.id/api/download/dlmp3?apikey=gifted&url=${text}`)
     let json = await api.json()
-
-    // Imprime la respuesta de la API para depuración
-    console.log("Respuesta de la API:", json)
-
-    // Verifica si la respuesta de la API contiene los datos esperados
-    if (!json.result || !json.result.download_url) {
-      return m.reply("❀ No se pudo obtener el archivo de audio. Intenta con otra URL.")
-    }
-
     let { quality, title, download_url } = json.result
 
     await m.react('✅')
-
-    // Verifica que la URL de descarga no esté vacía antes de enviar el mensaje
-    if (download_url) {
-      await conn.sendMessage(m.chat, { 
-        audio: { url: download_url }, 
-        fileName: `${title}.mp3`, 
-        mimetype: 'audio/mp4' 
-      }, { quoted: m })
-    } else {
-      m.reply("❀ La URL de descarga es inválida o no se pudo procesar.")
-    }
+    await conn.sendMessage(m.chat, { 
+      audio: { url: download_url }, 
+      fileName: `${title}.mp3`, 
+      mimetype: 'audio/mp4' 
+    }, { quoted: m })
   } catch (error) {
-    console.error("Error al procesar la URL:", error)
+    console.error(error)
     m.reply("❀ Hubo un error al procesar la URL. Inténtalo nuevamente.")
   }
 }
