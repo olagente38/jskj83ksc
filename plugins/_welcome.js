@@ -16,21 +16,21 @@ export async function before(m, { conn, participants, groupMetadata }) {
   if (chat.welcome && m.messageStubType == 27) {
     let bienvenida = ` ︿︿︿︿︿︿︿︿︿︿︿︿\n┊  👋🏻「 \`𝐖𝐄𝐋𝐂𝐎𝐌𝐄\` 」👋🏻 \n ︶︶︶︶︶︶︶︶︶︶︶︶\n*┊ 👤* 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 *»* @${m.messageStubParameters[0].split`@`[0]} \n*┊ 📝* 𝐆𝐑𝐔𝐏𝐎 *»* ${groupMetadata.subject}\n ︶︶︶︶︶︶︶︶︶︶︶︶`;
 
-    // Si 'channel' no es necesario, simplemente elimina esta parte
-    await conn.sendMini(m.chat, packname, dev, bienvenida, img, img, '', estilo);
+    // Usar sendMessage en lugar de sendMini
+    await conn.sendMessage(m.chat, { text: bienvenida, mentions: [who] });
   }
 
   if (chat.welcome && m.messageStubType == 28) {
     let bye = ` ︿︿︿︿︿︿︿︿︿︿︿︿\n┊  👋🏻「 \`𝐁𝐘𝐄\` 」👋🏻 \n ︶︶︶︶︶︶︶︶︶︶︶︶\n*┊ 👤* 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 *»* @${m.messageStubParameters[0].split`@`[0]} \n*┊ 📝* 𝐆𝐑𝐔𝐏𝐎 *»* ${groupMetadata.subject}\n ︶︶︶︶︶︶︶︶︶︶︶︶`;
-    
-    // Si 'channel' no es necesario, simplemente elimina esta parte
-    await conn.sendMini(m.chat, packname, dev, bye, img, img, '', estilo);
+
+    // Usar sendMessage en lugar de sendMini
+    await conn.sendMessage(m.chat, { text: bye, mentions: [who] });
   }
 
   if (chat.welcome && m.messageStubType == 32) {
     let kick = ` ︿︿︿︿︿︿︿︿︿︿︿︿\n┊  👋🏻「 \`𝐁𝐘𝐄\` 」👋🏻 \n ︶︶︶︶︶︶︶︶︶︶︶︶\n*┊ 👤* 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 *»* @${m.messageStubParameters[0].split`@`[0]} \n*┊ 📝* 𝐆𝐑𝐔𝐏𝐎 *»* ${groupMetadata.subject}\n ︶︶︶︶︶︶︶︶︶︶︶︶`;
 
-    // Si 'channel' no es necesario, simplemente elimina esta parte
-    await conn.sendMini(m.chat, packname, dev, kick, img, img, '', estilo);
+    // Usar sendMessage en lugar de sendMini
+    await conn.sendMessage(m.chat, { text: kick, mentions: [who] });
   }
 }
