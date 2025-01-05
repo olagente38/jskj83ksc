@@ -166,14 +166,14 @@ if (_0x4ea9f2) {
             'image': await _0x36edb8.toBuffer(_0x3a7bea, {
               'scale': 0x8
             }),
-            'caption': "ㅤㅤㅤㅤㅤ*\`ＭＩＺＵＫＩ | ＡＩ\`*\nㅤㅤㅤㅤ🤖 *\`ＳＵＢ ＢＯＴ\`* 🤖\n\n*[📝]* *»* *𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐬𝐢𝐠𝐮𝐞 𝐞𝐬𝐭𝐚𝐬 𝐢𝐧𝐬𝐭𝐫𝐮𝐜𝐜𝐢𝐨𝐧𝐞𝐬 𝐩𝐚𝐫𝐚 𝐜𝐨𝐧𝐯𝐞𝐫𝐭𝐢𝐫𝐭𝐞 𝐞𝐧 𝐮𝐧 𝐒𝐮𝐛 𝐁𝐨𝐭 𝐞𝐬𝐜𝐚𝐧𝐞𝐚𝐧𝐝𝐨 𝐞𝐬𝐭𝐞 𝐜ó𝐝𝐢𝐠𝐨 𝐐𝐑.*\n\n`1` *»* Haga clic en los tres puntos en la esquina superior derecha\n\n`2` *»* Toca dispositivos vinculados\n\n`3` *»* Escanee este codigo QR para iniciar sesión\n\n*[⏳]* *»* *¡𝐀𝐭𝐞𝐧𝐜𝐢ó𝐧! 𝐄𝐬𝐭𝐞 𝐜ó𝐝𝐢𝐠𝐨 𝐐𝐑 𝐭𝐢𝐞𝐧𝐞 𝐮𝐧𝐚 𝐯𝐚𝐥𝐢𝐝𝐞𝐳 𝐝𝐞 𝟒𝟓 𝐬𝐞𝐠𝐮𝐧𝐝𝐨𝐬. ¡𝐍𝐨 𝐥𝐨 𝐝𝐞𝐣𝐞𝐬 𝐩𝐚𝐬𝐚𝐫!*" + _0x261df0.toString("utf-8")
+            'caption': "ㅤㅤㅤㅤ *\`ＭＩＺＵＫＩ | ＡＩ\`*\nㅤㅤㅤㅤ🤖 *\`ＳＵＢ ＢＯＴ\`* 🤖\n\n*[📝]* *»* *𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐬𝐢𝐠𝐮𝐞 𝐞𝐬𝐭𝐚𝐬 𝐢𝐧𝐬𝐭𝐫𝐮𝐜𝐜𝐢𝐨𝐧𝐞𝐬 𝐩𝐚𝐫𝐚 𝐜𝐨𝐧𝐯𝐞𝐫𝐭𝐢𝐫𝐭𝐞 𝐞𝐧 𝐮𝐧 𝐒𝐮𝐛 𝐁𝐨𝐭 𝐞𝐬𝐜𝐚𝐧𝐞𝐚𝐧𝐝𝐨 𝐞𝐬𝐭𝐞 𝐜ó𝐝𝐢𝐠𝐨 𝐐𝐑.*\n\n`1` *»* Haga clic en los tres puntos en la esquina superior derecha\n\n`2` *»* Toca dispositivos vinculados\n\n`3` *»* Escanee este codigo QR para iniciar sesión\n\n*[⏳]* *»* *¡𝐀𝐭𝐞𝐧𝐜𝐢ó𝐧! 𝐄𝐬𝐭𝐞 𝐜ó𝐝𝐢𝐠𝐨 𝐐𝐑 𝐭𝐢𝐞𝐧𝐞 𝐮𝐧𝐚 𝐯𝐚𝐥𝐢𝐝𝐞𝐳 𝐝𝐞 𝟒𝟓 𝐬𝐞𝐠𝐮𝐧𝐝𝐨𝐬. ¡𝐍𝐨 𝐥𝐨 𝐝𝐞𝐣𝐞𝐬 𝐩𝐚𝐬𝐚𝐫!*" + _0x261df0.toString("utf-8")
           }, {
             'quoted': _0x229076
           });
         }
         if (_0x3a7bea && _0x4ea9f2) {
           _0x125157 = await _0x3b0d31.sendMessage(_0x229076.chat, {
-            'text': "✿ *Vincula tu cuenta usando el codigo.*\n\n_✰ Sigue las *instrucciones* :_\n\n`1` » Click en los 3 puntos\n\n`2` » Toque dispositivos vinculados\n\n`3` » Vincular nuevo dispositivo\n\n`4` » Selecciona Vincular con el número de teléfono\n\n> *✰ Nota :* _Este Código solo funciona en el número que lo solicito_\n> *✿ Aviso :* _No es recomendable ser subbot en tu numero principal_" + _0x261df0.toString('utf-8')
+            'text': "ㅤㅤㅤㅤ *\`ＭＩＺＵＫＩ | ＡＩ\`*\nㅤㅤㅤㅤ🤖 *\`ＳＵＢ ＢＯＴ\`* 🤖\n\n*[📝]* *»* *𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐬𝐢𝐠𝐮𝐞 𝐞𝐬𝐭𝐚𝐬 𝐢𝐧𝐬𝐭𝐫𝐮𝐜𝐜𝐢𝐨𝐧𝐞𝐬 𝐩𝐚𝐫𝐚 𝐜𝐨𝐧𝐯𝐞𝐫𝐭𝐢𝐫𝐭𝐞 𝐞𝐧 𝐮𝐧 𝐒𝐮𝐛 𝐁𝐨𝐭 𝐮𝐬𝐚𝐧𝐝𝐨 𝐞𝐥 𝐜ó𝐝𝐢𝐠𝐨 𝐝𝐞 𝟖 𝐝í𝐠𝐢𝐭𝐨𝐬.*\n\n`1` *»* Click en los 3 puntos\n\n`2` *»* Toque dispositivos vinculados\n\n`3` *»* Vincular nuevo dispositivo\n\n`4` *»* Selecciona Vincular con el número de teléfono\n\n*[⏳]* *»* *¡𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭𝐞! 𝐄𝐬𝐭𝐞 𝐜ó𝐝𝐢𝐠𝐨 𝐬𝐨𝐥𝐨 𝐞𝐬 𝐯á𝐥𝐢𝐝𝐨 𝐩𝐚𝐫𝐚 𝐞𝐥 𝐧ú𝐦𝐞𝐫𝐨 𝐪𝐮𝐞 𝐥𝐨 𝐬𝐨𝐥𝐢𝐜𝐢𝐭ó.*" + _0x261df0.toString('utf-8')
           }, {
             'quoted': _0x229076
           });
