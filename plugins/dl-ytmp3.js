@@ -14,8 +14,11 @@ let handler = async (m, { conn, text }) => {
   try {
     let api = await fetch(`https://api.zenkey.my.id/api/download/ytmp3?apikey=zenkey&url=${text}`)
     let json = await api.json()
-    
-    // Verifica si el resultado es válido antes de continuar
+
+    // Imprime la respuesta de la API para depuración
+    console.log("Respuesta de la API:", json)
+
+    // Verifica si la respuesta de la API contiene los datos esperados
     if (!json.result || !json.result.download_url) {
       return m.reply("❀ No se pudo obtener el archivo de audio. Intenta con otra URL.")
     }
@@ -35,7 +38,7 @@ let handler = async (m, { conn, text }) => {
       m.reply("❀ La URL de descarga es inválida o no se pudo procesar.")
     }
   } catch (error) {
-    console.error(error)
+    console.error("Error al procesar la URL:", error)
     m.reply("❀ Hubo un error al procesar la URL. Inténtalo nuevamente.")
   }
 }
