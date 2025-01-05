@@ -4,7 +4,7 @@ let handler = async (m, { conn, text }) => {
   if (!text) {
     return m.reply("❀ Por favor, ingresa una URL válida de YouTube.")
   }
-    await m.react('🕓')
+  await m.react('🕓')
 
   let ytUrlRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/;
   if (!ytUrlRegex.test(text)) {
@@ -12,7 +12,7 @@ let handler = async (m, { conn, text }) => {
   }
 
   try {
-    let api = await fetch(`https://api.zenkey.my.id/api/download/ytmp3?apikey=zenkey&url=${yt_play[0].url}`)
+    let api = await fetch(`https://api.zenkey.my.id/api/download/ytmp3?apikey=zenkey&url=${text}`)
     let json = await api.json()
     let { quality, title, download_url } = json.result
 
