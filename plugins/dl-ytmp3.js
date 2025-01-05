@@ -16,10 +16,15 @@ let handler = async (m, { conn, text }) => {
     // Verifica si la respuesta no es JSON
     const contentType = api.headers.get('content-type');
     if (!contentType || !contentType.includes('application/json')) {
-      throw new Error('La respuesta de la API no es un JSON válido.');
+      const textResponse = await api.text(); // Obtener el cuerpo como texto
+      throw new Error(`La respuesta de la API no es un JSON válido. Contenido recibido: ${textResponse}`);
     }
 
     let json = await api.json();
+    if (!json.result) {
+      throw new Error('La API no devolvió un resultado válido.');
+    }
+
     let { quality, title, download_url } = json.result;
 
     await m.react('✅')
@@ -30,7 +35,7 @@ let handler = async (m, { conn, text }) => {
     }, { quoted: m })
   } catch (error) {
     console.error(error)
-    m.reply("❀ Hubo un error al procesar la URL. Inténtalo nuevamente.")
+    m.reply(`❀ Error: ${error.message}`);
   }
 }
 
