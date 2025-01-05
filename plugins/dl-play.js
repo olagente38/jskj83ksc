@@ -14,7 +14,7 @@ let handler = async (m, { conn, args }) => {
     let video = res[0];
     let img = await (await fetch(video.image)).buffer();
 
-    let txt = `ㅤㅤㅤ *ＤＥＳＣＡＲＧＡＳ*\nㅤㅤㅤㅤ *🎧 ＰＬＡＹ 🎧*\n\n`;
+    let txt = `ㅤㅤㅤ *\`ＤＥＳＣＡＲＧＡＳ\`*\nㅤㅤㅤㅤ *🎧 \`ＰＬＡＹ\` 🎧*\n\n`;
     txt += `• *[🍿]* *𝐓Í𝐓𝐔𝐋𝐎* *»* ${video.title}\n\n`;
     txt += `• *[⌛]* *𝐃𝐔𝐑𝐀𝐂𝐈Ó𝐍* *»* ${secondString(video.duration.seconds)}\n\n`;
     txt += `• *[📆]* *𝐏𝐔𝐁𝐋𝐈𝐂𝐀𝐃𝐎* *»* ${eYear(video.ago)}\n\n`;
