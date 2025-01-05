@@ -8,17 +8,17 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let name2 = conn.getName(m.sender);
 
   if (user.registered === true) {
-    return m.reply(`[ ✰ ] Ya estás registrado.`);
+    return m.reply(`*[🔖]* *»* *𝐀𝐧𝐭𝐞𝐫𝐢𝐨𝐫𝐦𝐞𝐧𝐭𝐞, 𝐲𝐚 𝐡𝐚𝐛í𝐚𝐬 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐚𝐝𝐨 𝐞𝐥 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐨 𝐜𝐨𝐧 é𝐱𝐢𝐭𝐨.*`);
   }
   if (!Reg.test(text)) {
     return m.reply(
-      `ㅤㅤㅤ *📝 \`ＲＥＧＩＳＴＲＯ\` 📝*\n*[✏️]* *»* *𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐩𝐫𝐨𝐩𝐨𝐫𝐜𝐢𝐨𝐧𝐚 𝐭𝐮 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐩𝐚𝐫𝐚 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐜𝐨𝐧 𝐞𝐥 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐨.*\n\nㅤㅤㅤ *✅ \`ＥＪＥＭＰＬＯ\` ✅*\nㅤ ㅤㅤ *[🚨]* *»* *${usedPrefix + command}* *𝐍𝐨𝐦𝐛𝐫𝐞.𝐄𝐝𝐚𝐝*`
+      `ㅤㅤㅤ *📝 \`ＲＥＧＩＳＴＲＯ\` 📝*\n*[✏️]* *»* *𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐩𝐫𝐨𝐩𝐨𝐫𝐜𝐢𝐨𝐧𝐚 𝐭𝐮 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐩𝐚𝐫𝐚 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐜𝐨𝐧 𝐞𝐥 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐨.*\n\nㅤㅤㅤ*✅ \`ＥＪＥＭＰＬＯ\` ✅*\nㅤ ㅤㅤ *[🚨]* *»* *${usedPrefix + command}* *𝐍𝐨𝐦𝐛𝐫𝐞.𝐄𝐝𝐚𝐝*`
     );
   }
 
   let [_, name, splitter, age] = text.match(Reg);
-  if (!name) return conn.reply(m.chat, '[ ✰ ] El nombre no puede estar vacío.', m);
-  if (!age) return conn.reply(m.chat, '[ ✰ ] La edad no puede estar vacía.', m);
+  if (!name) return conn.reply(m.chat, '*[🔖]* *»* *𝐄𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐧𝐨 𝐩𝐮𝐞𝐝𝐞 𝐞𝐬𝐭𝐚𝐫 𝐞𝐧 𝐛𝐥𝐚𝐧𝐜𝐨.*', m);
+  if (!age) return conn.reply(m.chat, '*[🔖]* *»* *𝐋𝐚 𝐞𝐝𝐚𝐝 𝐧𝐨 𝐩𝐮𝐞𝐝𝐞 𝐞𝐬𝐭𝐚𝐫 𝐞𝐧 𝐛𝐥𝐚𝐧𝐜𝐨.*', m);
 
   age = parseInt(age);
   user.name = name.trim();
@@ -29,7 +29,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6);
 
   // Descargar imagen como Buffer
-  let imgUrl = `https://qu.ax/rJHDD.jpg`;
+  let imgUrl = `https://qu.ax/xzBMl.jpg`;
   let imgBuffer;
   try {
     imgBuffer = await (await fetch(imgUrl)).buffer();
@@ -42,13 +42,13 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let date = now.toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' });
   let time = now.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
-  let txt = '*`📄 R E G I S T R O 📄`*\n';
-  txt += `\`━━━━━━━━━━━━━━━━━━━━\`\n`;
-  txt += `*\`⁘ NOMBRE:\`* ${name}\n`;
-  txt += `*\`⁘ EDAD:\`* ${age} años\n`;
-  txt += `*\`⁘ FECHA:\`* ${fecha}\n`;
-  txt += `*\`⁘ N° SERIAL:\`* ${sn}\n`;
-  txt += `\`━━━━━━━━━━━━━━━━━━━━\``;
+  let txt = '︿︿︿︿︿︿︿︿︿︿︿︿\n┊  📝「 *\`ＲＥＧＩＳＴＲＯ\`* 」📝 \n';
+  txt += ` ︶︶︶︶︶︶︶︶︶︶︶︶\n`;
+  txt += `*┊ 👤* *𝐍𝐎𝐌𝐁𝐑𝐄* *»* ${name}\n`;
+  txt += `*┊ 🫛* *𝐄𝐃𝐀𝐃* *»* ${age} años\n`;
+  txt += `*┊ 📆* *𝐅𝐄𝐂𝐇𝐀* *»* ${fecha}\n`;
+  txt += `*┊ 📝* *𝐍° 𝐒𝐄𝐑𝐈𝐄* *»* ${sn}\n`;
+  txt += `\`︶︶︶︶︶︶︶︶︶︶︶︶\``;
 //  txt += `> Escribe *${usedPrefix}profile* para ver tu perfil.`;
 
   let dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ іzᥙmі.kz᥊';
