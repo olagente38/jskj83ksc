@@ -5,7 +5,7 @@ import ws from 'ws';
 
 let handler = async (m, { conn: _envio, command, usedPrefix, args, text, isOwner}) => {
 
-let img = await (await fetch(`https://i.ibb.co/cDcj6bv/ee415abc-626b-4659-9a9e-a313c159512b.png`)).buffer()
+let img = await (await fetch(`https://qu.ax/xzBMl.jpg`)).buffer()
 
 const isCommand1 = /^(deletesesion|deletebot|deletesession|deletesesaion)$/i.test(command)  
 const isCommand2 = /^(stop|pausarai|pausarbot)$/i.test(command)  
@@ -40,7 +40,7 @@ break
 case isCommand2:
 if (global.conn.user.jid == conn.user.jid) conn.reply(m.chat, `✨ Si no es *SubBot* comuníquese al numero principal del *Bot* para ser *SubBot*`, m)
 else {
-await conn.reply(m.chat, `☁️ Genesis Ai desactivada.`, m)
+await conn.reply(m.chat, `☁️ Mizuki Ai desactivada.`, m)
 conn.ws.close()}  
 break
 
@@ -73,7 +73,7 @@ return resultado;
 const message = users.map((v, index) => `👤 *\`「 ${index + 1} 」\` ${v.user.name || 'Sub-Bot'}*\n📎 Wa.me/${v.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}menu\n🕑 Online: ${ v.uptime ? convertirMsADiasHorasMinutosSegundos(Date.now() - v.uptime) : 'Desconocido'}`).join('\n\n__________________________\n\n');
 const replyMessage = message.length === 0 ? `No hay Sub-Bots disponible por el momento, verifique mas tarde.` : message;
 const totalUsers = users.length;
-const responseMessage = `☁️ *ＳＵＢ ＢＯＴＳ ＭＩＺＵＫＩ* ☁️\n\n_Total Subbots Activos :_ ${totalUsers || '0'}\n\n${replyMessage.trim()}`.trim();
+const responseMessage = `☁️ *ＳＵＢ ＢＯＴＳ* ☁️\n\n_Total Subbots Activos :_ ${totalUsers || '0'}\n\n${replyMessage.trim()}`.trim();
 await m.react('☁️')
 await _envio.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, null, fake, false, { mentions: _envio.parseMention(responseMessage) })
 break   
