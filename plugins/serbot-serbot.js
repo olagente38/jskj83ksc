@@ -166,7 +166,7 @@ if (_0x4ea9f2) {
             'image': await _0x36edb8.toBuffer(_0x3a7bea, {
               'scale': 0x8
             }),
-            'caption': "ㅤㅤㅤㅤ *\`ＭＩＺＵＫＩ | ＡＩ\`*\nㅤㅤㅤㅤ🤖 *\`ＳＵＢ ＢＯＴ\`* 🤖\n\n*[📝]* *»* *𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐬𝐢𝐠𝐮𝐞 𝐞𝐬𝐭𝐚𝐬 𝐢𝐧𝐬𝐭𝐫𝐮𝐜𝐜𝐢𝐨𝐧𝐞𝐬 𝐩𝐚𝐫𝐚 𝐜𝐨𝐧𝐯𝐞𝐫𝐭𝐢𝐫𝐭𝐞 𝐞𝐧 𝐮𝐧 𝐒𝐮𝐛 𝐁𝐨𝐭 𝐞𝐬𝐜𝐚𝐧𝐞𝐚𝐧𝐝𝐨 𝐞𝐬𝐭𝐞 𝐜ó𝐝𝐢𝐠𝐨 𝐐𝐑.*\n\n`1` *»* Haga clic en los tres puntos en la esquina superior derecha\n\n`2` *»* Toca dispositivos vinculados\n\n`3` *»* Escanee este codigo QR para iniciar sesión\n\n*[⏳]* *»* *¡𝐀𝐭𝐞𝐧𝐜𝐢ó𝐧! 𝐄𝐬𝐭𝐞 𝐜ó𝐝𝐢𝐠𝐨 𝐐𝐑 𝐭𝐢𝐞𝐧𝐞 𝐮𝐧𝐚 𝐯𝐚𝐥𝐢𝐝𝐞𝐳 𝐝𝐞 𝟒𝟓 𝐬𝐞𝐠𝐮𝐧𝐝𝐨𝐬. ¡𝐍𝐨 𝐥𝐨 𝐝𝐞𝐣𝐞𝐬 𝐩𝐚𝐬𝐚𝐫!*" + _0x261df0.toString("utf-8")
+            'caption': "ㅤㅤㅤ *\`ＭＩＺＵＫＩ | ＡＩ\`*\nㅤㅤㅤ🤖 *\`ＳＵＢ ＢＯＴ\`* 🤖\n\n*[📝]* *»* *𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐬𝐢𝐠𝐮𝐞 𝐞𝐬𝐭𝐚𝐬 𝐢𝐧𝐬𝐭𝐫𝐮𝐜𝐜𝐢𝐨𝐧𝐞𝐬 𝐩𝐚𝐫𝐚 𝐜𝐨𝐧𝐯𝐞𝐫𝐭𝐢𝐫𝐭𝐞 𝐞𝐧 𝐮𝐧 𝐒𝐮𝐛 𝐁𝐨𝐭 𝐞𝐬𝐜𝐚𝐧𝐞𝐚𝐧𝐝𝐨 𝐞𝐬𝐭𝐞 𝐜ó𝐝𝐢𝐠𝐨 𝐐𝐑.*\n\n`1` *»* Haga clic en los tres puntos en la esquina superior derecha\n\n`2` *»* Toca dispositivos vinculados\n\n`3` *»* Escanee este codigo QR para iniciar sesión\n\n*[⏳]* *»* *¡𝐀𝐭𝐞𝐧𝐜𝐢ó𝐧! 𝐄𝐬𝐭𝐞 𝐜ó𝐝𝐢𝐠𝐨 𝐐𝐑 𝐭𝐢𝐞𝐧𝐞 𝐮𝐧𝐚 𝐯𝐚𝐥𝐢𝐝𝐞𝐳 𝐝𝐞 𝟒𝟓 𝐬𝐞𝐠𝐮𝐧𝐝𝐨𝐬. ¡𝐍𝐨 𝐥𝐨 𝐝𝐞𝐣𝐞𝐬 𝐩𝐚𝐬𝐚𝐫!*" + _0x261df0.toString("utf-8")
           }, {
             'quoted': _0x229076
           });
