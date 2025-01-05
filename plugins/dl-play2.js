@@ -81,14 +81,16 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   const isVideo = /vid|2|mp4|v$/.test(command);
   const search = await yts(text);
 
+  // Verificar que `search` sea un objeto válido y que `search.all` sea un array
   if (!search || !Array.isArray(search.all) || search.all.length === 0) {
     throw "No se encontraron resultados para tu búsqueda.";
   }
 
   const videoInfo = search.all[0];
 
-  if (!videoInfo || !videoInfo.title) {
-    throw "Información del video no encontrada.";
+  // Verificación adicional para asegurarse de que `videoInfo` esté bien definido
+  if (!videoInfo || !videoInfo.title || !videoInfo.url) {
+    throw "Información del video no encontrada o incompleta.";
   }
 
   const body = `Info del video
@@ -157,7 +159,7 @@ El video se está enviando, espérate un rato.`;
   }
 };
 
-handler.command = handler.help = ['pla', 'plavid', 'yt1', 'ytmp4a', 'ytaa', 'pla2', 'ytmp3a'];
+handler.command = handler.help = ['play', 'playvid', 'ytv', 'ytmp4', 'yta', 'play2', 'ytmp3'];
 handler.tags = ['descargas'];
 handler.diamond = 4;
 
