@@ -42,13 +42,13 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let date = now.toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' });
   let time = now.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
-  let txt = '︿︿︿︿︿︿︿︿︿︿︿︿\n┊  📝「 *\`ＲＥＧＩＳＴＲＯ\`* 」📝 \n';
-  txt += ` ︶︶︶︶︶︶︶︶︶︶︶︶\n`;
+  let txt = '︿︿︿︿︿︿︿︿︿︿︿︿︿︿︿\n*┊*  📝「 *\`ＲＥＧＩＳＴＲＯ\`* 」📝 \n';
+  txt += ` ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶\n`;
   txt += `*┊ 👤* *𝐍𝐎𝐌𝐁𝐑𝐄* *»* ${name}\n`;
   txt += `*┊ 🫛* *𝐄𝐃𝐀𝐃* *»* ${age} años\n`;
   txt += `*┊ 📆* *𝐅𝐄𝐂𝐇𝐀* *»* ${fecha}\n`;
   txt += `*┊ 📝* *𝐍° 𝐒𝐄𝐑𝐈𝐄* *»* ${sn}\n`;
-  txt += `\`︶︶︶︶︶︶︶︶︶︶︶︶\``;
+  txt += `︶︶︶︶︶︶︶︶︶︶︶︶`;
 //  txt += `> Escribe *${usedPrefix}profile* para ver tu perfil.`;
 
   let dev = 'ᴍɪᴢᴜᴋɪ ᴀɪ ᴏꜰɪᴄɪᴀʟ';
