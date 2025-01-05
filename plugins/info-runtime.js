@@ -1,8 +1,8 @@
 let handler = async (m, { usedPrefix, command }) => {
     let uptime = await process.uptime();
-    let runtime = `${global.packname}
+    let runtime = `ㅤㅤㅤ *\`ＭＩＺＵＫＩ | ＡＩ\`*\nㅤㅤㅤ⏰ *\`ＵＰＴＩＭＥ\`* ⏰
 
-✰ 𝗧𝗶𝗲𝗺𝗽𝗼 𝗔𝗰𝘁𝗶𝘃𝗮: ${rTime(uptime)}`;
+*[⏳]* *»* *𝐓𝐈𝐄𝐌𝐏𝐎 𝐀𝐂𝐓𝐈𝐕𝐎:* ${rTime(uptime)}`;
     conn.reply(m.chat, runtime, m, { contextInfo: { externalAdReply: { mediaUrl: false, mediaType: 1, description: false, title: packname, body: dev, previewType: 0, thumbnail: icons } } });
 };
 
