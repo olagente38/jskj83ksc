@@ -61,15 +61,15 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
     buttons: [
       {
         buttonId: `.perfil`,
-        buttonText: { displayText: '👤 PERFIL' },
+        buttonText: { displayText: '👤 ＭＩ ＰＥＲＦＩＬ' },
       },
       {
         buttonId: `.owner`,
-        buttonText: { displayText: '☁️ OWNER' },
+        buttonText: { displayText: '👑 ＣＲＥＡＤＯＲ' },
       },
       {
         buttonId: `.ping`,
-        buttonText: { displayText: '📶 PING' },
+        buttonText: { displayText: '🏓 ＰＩＮＧ' },
       },
     ],
     viewOnce: true,
