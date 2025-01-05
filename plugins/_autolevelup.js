@@ -57,7 +57,7 @@ handler.before = async function (m, { conn }) {
       `*┌  ◦ \`Nombre:\`* ${name}\n` +
       `*├  ◦ \`Rol:\`* ${role}\n` +
       `*├  ◦ \`Exp:\`* ${user.exp} xp\n` +
-      `*└  ◦ \`Nivel:\`* [ ${before} ] ➠ [ ${user.level} ]\n\n© ⍴᥆ᥕᥱr ᑲᥡ іzᥙмі.kz᥊ - gᥱᥒᥱsіs-ᥲі`.trim(),
+      `*└  ◦ \`Nivel:\`* [ ${before} ] ➠ [ ${user.level} ]\n\nMizuki Ai`.trim(),
       m, null, fake
     );
   }
