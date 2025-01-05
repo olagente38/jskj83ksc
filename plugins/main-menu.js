@@ -234,13 +234,13 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command }) => {
         {
           buttonId: `.ping`,
           buttonText: {
-            displayText: 'PING',
+            displayText: '🏓 ＰＩＮＧ',
           },
         },
         {
           buttonId: `.owner`,
           buttonText: {
-            displayText: 'OWNER',
+            displayText: '👑 ＣＲＥＡＤＯＲ',
           },
         },
       ],
