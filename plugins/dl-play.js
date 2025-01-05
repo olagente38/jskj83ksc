@@ -15,11 +15,11 @@ let handler = async (m, { conn, args }) => {
     let img = await (await fetch(video.image)).buffer();
 
     let txt = `ㅤㅤㅤ *ＤＥＳＣＡＲＧＡＳ*\nㅤㅤㅤㅤ *🎧 ＰＬＡＹ 🎧*\n\n`;
-    txt += `• *[🍿]* *𝐓Í𝐓𝐔𝐋𝐎* *»* ${video.title}\n`;
-    txt += `• *\`Duración:\`* ${secondString(video.duration.seconds)}\n`;
-    txt += `• *\`Publicado:\`* ${eYear(video.ago)}\n`;
-    txt += `• *\`Canal:\`* ${video.author.name || 'Desconocido'}\n`;
-    txt += `• *\`Url:\`* _https://youtu.be/${video.videoId}_\n\n`;
+    txt += `• *[🍿]* *𝐓Í𝐓𝐔𝐋𝐎* *»* ${video.title}\n\n`;
+    txt += `• *[⌛]* *𝐃𝐔𝐑𝐀𝐂𝐈Ó𝐍* *»* ${secondString(video.duration.seconds)}\n\n`;
+    txt += `• *[📆]* *𝐏𝐔𝐁𝐋𝐈𝐂𝐀𝐃𝐎* *»* ${eYear(video.ago)}\n\n`;
+    txt += `• *[🚨]* *𝐂𝐀𝐍𝐀𝐋* *»* ${video.author.name || 'Desconocido'}\n\n`;
+    txt += `• *[🔗]* *𝐔𝐑𝐋* *»* _https://youtu.be/${video.videoId}_\n\n`;
 
     await conn.sendMessage(m.chat, {
       image: img,
