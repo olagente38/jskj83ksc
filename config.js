@@ -35,29 +35,29 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.5'
 global.vs = '2.0.7'
 global.vsJB = '5.0'
-global.nameqr = 'Genesis-Ultra'
-global.namebot = 'gᥱᥒᥱsіs ᥙᥣ𝗍rᥲ ᰔᩚ'
+global.nameqr = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
+global.namebot = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
 global.sessions = 'GenesisSession'
 global.jadi = 'GenesisJadiBot'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ Genesis Ai - Ultra ✰⪜'
-global.botname = 'Genesis-Ai'
-global.wm = 'Genesis-Ultra 🤍'
-global.author = 'mᥲძᥱ ᑲᥡ : іzᥙmі.kz᥊ ☕'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ іzᥙmі.kz᥊'
-global.textbot = 'Genesis Ai : Izumi.kzx 🤍'
-global.namebot = 'Genesis Ai'
-global.stickpack = `© ⍴᥆ᥕᥱrᥱძ ᑲᥡ іzᥙmі.kz᥊`
+global.packname = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
+global.botname = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
+global.wm = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
+global.author = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
+global.dev = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
+global.textbot = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
+global.namebot = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
+global.stickpack = `🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺`
 global.titulowm = '-❀ᩙ̈͟༚̮ ⡞᪲=͟͟͞🄶𝚎᪶۫۫𝚗᪶۫۫𝚎᪶۫۫𝚜᪶۫۫𝚒᪶۫۫𝚜᪶۫ 𝚊᪶۫𝚒᪶۫͜ ≼᳞ׄ ᵎ ˚꙳꤬ꨪ'
-global.titulowm2 = '.‧·ீ੭ ¡ ᗃᮢ፝֟͡Gᴇɴᴇsɪs B۵ᴛ ʟᴀ ᴍᴇᴊ꧔ʀ !˚̩̩̥͙°̩̥༅˚'
-global.igfg = '@usxr_angelito0'
-global.titu = '©️ ρσωε૨ ɓყ ɠαℓαאყ ƭεαɱ'
+global.titulowm2 = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
+global.igfg = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
+global.titu = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺'
 global.listo = '*Aqui tiene ฅ^•ﻌ•^ฅ*'
 global.vs = '2.0.0'
-global.namechannel = '𝑮𝒆𝒏𝒆𝒔𝒊𝒔-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍'
-global.stickauth = `© Genesis Ai By Angelito-OFC`
+global.namechannel = '🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 | 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌺'
+global.stickauth = `🌺 𝐌𝐈𝐙𝐔𝐊𝐈 𝐀𝐈 🌺`
 global.dis = ':⁖֟⊱┈֟፝❥'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -66,28 +66,28 @@ global.catalogo = fs.readFileSync('./src/catalogo.png')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'https://chat.whatsapp.com/GqKwwoV2JJaJDP2SL7SddX'
-global.group2 = 'https://chat.whatsapp.com/Fn5Ipyxu6mE6qEQlwWZTwU'
-global.canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'
-global.github = 'https://github.com/Angelito-OFC/Genesis-AI' 
-global.instagram = 'https://www.instagram.com/angelito.kzx' 
-global.whatsApp = 'https://wa.me/59168683798'
+global.group = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.group2 = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.canal = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.github = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' 
+global.instagram = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' 
+global.whatsApp = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ᰔᩚ mizuki ᥕһᥲ𝗍sᥲ⍴⍴ ᑲ᥆𝗍', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}};
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ᴍɪᴢᴜᴋɪ ᴀɪ ᴏꜰɪᴄɪᴀʟ ᴡʜᴀᴛꜱᴀᴘᴘ', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}};
 
-global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕✨', jpegThumbnail: catalogo }}};
+global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Mizuki-Ai', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: 'ᴍɪᴢᴜᴋɪ ᴀɪ ᴡʜᴀᴛꜱᴀᴘᴘ', jpegThumbnail: catalogo }}};
 
-global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖ɢ ᴇ ɴ ᴇ ꜱ ɪ ꜱ ♡', jpegThumbnail: catalogo }}};
+global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Mizuki-Ai', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: 'ᴍɪᴢᴜᴋɪ ᴀɪ ᴏꜰɪᴄɪᴀʟ', jpegThumbnail: catalogo }}};
 
-global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 🤍', jpegThumbnail: catalogo }}};
+global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Mizuki-Ai', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: 'ᴍɪᴢᴜᴋɪ ᴀɪ ᴏꜰᴄ', jpegThumbnail: catalogo }}};
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.ch = {
-ch1: '120363220939514640@newsletter',
-ch2: '120363205895430548@newsletter',
+ch1: '120363316264159575@newsletter',
+ch2: '120363316264159575@newsletter',
 }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
