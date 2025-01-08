@@ -20,7 +20,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
   for (const mem of participants) {
     teks += `*┊*👑 @${mem.id.split('@')[0]}\n`;
   }
-  teks += `*╰⸼ ┄ ┄ ┄*  *꒰* *ᴄɪʙᴇʀ ʙᴀɴᴅᴏ 2ʏᴋ* *꒱*  *┄  ┄*`;
+  teks += `*╰⸼ ┄ ┄*  *꒰* *ᴄɪʙᴇʀ ʙᴀɴᴅᴏ 2ʏᴋ* *꒱*  *┄  ┄*`;
 
   conn.sendMessage(m.chat, { text: teks, mentions: participants.map((a) => a.id) });
 };
