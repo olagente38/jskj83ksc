@@ -40,7 +40,7 @@ let handler = async (m, { conn, args }) => {
       footer: 'Selecciona una opción',
       buttons: [
         {
-          buttonId: `.playtest https://youtu.be/${name}`,
+          buttonId: `.playtest ${name}`,
           buttonText: {
             displayText: '🎵 ＡＵＤＩＯ',
           },
