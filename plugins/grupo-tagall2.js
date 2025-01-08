@@ -25,9 +25,9 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
   conn.sendMessage(m.chat, { text: teks, mentions: participants.map((a) => a.id) });
 };
 
-handler.help = ['todos2 *<mensaje opcional>*'];
-handler.tags = ['group2'];
-handler.command = /^(tagall 2|invocar2|marcar2|todos2|invocación2)$/i;
+handler.help = ['invocary2k *<mensaje opcional>*'];
+handler.tags = ['groupy2k'];
+handler.command = /^(tagally2k|invocary2k|clanY2K|clany2k|invocarY2K)$/i;
 handler.admin = true;
 handler.group = true;
 
