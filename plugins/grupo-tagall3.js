@@ -16,18 +16,18 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
 
   const pesan = args.join` `;
   const oi = `*» INFO :* ${pesan}`;
-  let teks = `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄\n𝐈𝐍𝐓𝐄𝐆𝐑𝐀𝐍𝐓𝐄𝐒\n𝐃𝐄𝐋 𝐂𝐋𝐀𝐍\n\n*╭ ┄ ┄* *꒰* \`𝐂𝐈𝐁𝐄𝐑 𝐁𝐀𝐍𝐃𝐎 𝟐𝐘𝐊\` *꒱* *┄ ┄*\n`;
+  let teks = `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄\n𝐋𝐀 𝐂𝐎𝐌𝐔𝐍𝐈𝐃𝐀𝐃\n𝐃𝐄𝐌𝐎𝐍𝐒n\n*╭ ┄ ┄* *꒰* \`𝐂𝐎𝐌𝐔𝐍𝐈𝐃𝐀𝐃 𝐃𝐄𝐌𝐎𝐍𝐒\` *꒱* *┄ ┄*\n`;
   for (const mem of participants) {
     teks += `*┊*👑 @${mem.id.split('@')[0]}\n`;
   }
-  teks += `*╰⸼ ┄ ┄*  *꒰* *ᴄɪʙᴇʀ ʙᴀɴᴅᴏ 2ʏᴋ* *꒱*  *┄  ┄*`;
+  teks += `*╰⸼ ┄ ┄*  *꒰* *ᴄᴏᴍᴜɴɪᴅᴀᴅ ᴅᴇᴍᴏɴꜱ* *꒱*  *┄  ┄*`;
 
   conn.sendMessage(m.chat, { text: teks, mentions: participants.map((a) => a.id) });
 };
 
-handler.help = ['invocary2k *<mensaje opcional>*'];
-handler.tags = ['groupy2k'];
-handler.command = /^(tagall2yk|invocar2yk|clan2YK|clan2Yk|invocar2YK)$/i;
+handler.help = ['demonsinvocar *<mensaje opcional>*'];
+handler.tags = ['groupdemons'];
+handler.command = /^(comunidaddemons|INVOCARCOMUNIDAD|COMUNIDADDEMONS|invocarcomunidad|demons)$/i;
 handler.admin = true;
 handler.group = true;
 
