@@ -78,6 +78,66 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       chat.antiBot = isEnable
       break
 
+    case 'autoaceptar':
+    case 'aceptarauto':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.autoAceptar = isEnable
+      break
+
+    case 'autorechazar':
+    case 'rechazarauto':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.autoRechazar = isEnable
+      break
+
+    // Nuevas opciones añadidas:
+
+    case 'pconly': 
+    case 'privateonly': 
+    case 'soloprivados':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
+      }
+      global.opts['pconly'] = isEnable
+      break
+    
+    case 'gconly': 
+    case 'grouponly': 
+    case 'sologrupos':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
+      }
+      global.opts['gconly'] = isEnable
+      break
+
+    // Nuevo caso agregado:
+
+    case 'anticommand': 
+    case 'antiarabe': 
+    case 'antiarabe2': 
+    case 'AntiCommand':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
+      }
+      bot.anticommand = isEnable
+      break
+
     // Otras opciones de configuración...
 
     default:
@@ -142,4 +202,4 @@ handler.tags = ['nable']
 handler.command = ['enable', 'disable', 'on', 'off', '1', '0']
 
 export default handler
-       
+                        
