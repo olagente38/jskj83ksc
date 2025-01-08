@@ -40,7 +40,7 @@ let handler = async (m, { conn, args }) => {
       footer: 'Selecciona una opción',
       buttons: [
         {
-          buttonId: `.ytmp3 https://youtu.be/${video.videoId}`,
+          buttonId: `.playtest https://youtu.be/${name}`,
           buttonText: {
             displayText: '🎵 ＡＵＤＩＯ',
           },
