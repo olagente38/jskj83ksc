@@ -1,35 +1,48 @@
-import fetch from 'node-fetch'
+/* *❀ By JTxs*
 
-let handler = async (m, { conn, text }) => {
-  if (!text) {
-    return m.reply("❀ Por favor, ingresa una URL válida de YouTube.")
-  }
-    await m.react('🕓')
+[ Canal Principal ] :
+https://whatsapp.com/channel/0029VaeQcFXEFeXtNMHk0D0n */
+import fetch from 'node-fetch';
 
-  let ytUrlRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/;
-  if (!ytUrlRegex.test(text)) {
-    return m.reply("❀ La URL ingresada no es válida. Asegúrate de que sea un enlace de YouTube.")
-  }
+let handler = async (m, { conn, command, text, usedPrefix }) => {
+    if (!text) {
+        await m.react('✖️');
+        return conn.reply(m.chat, `☁️ Ingresa un link de YouTube`, m, fake);
+    }
 
-  try {
-    let api = await fetch(`https://api.giftedtech.my.id/api/download/dlmp3?apikey=gifted&url=${text}`)
-    let json = await api.json()
-    let { quality, title, download_url } = json.result
+    try {
+        await m.react('🕒');
 
-    await m.react('✅')
-    await conn.sendMessage(m.chat, { 
-      audio: { url: download_url }, 
-      fileName: `${title}.mp3`, 
-      mimetype: 'audio/mp4' 
-    }, { quoted: m })
-  } catch (error) {
-    console.error(error)
-    m.reply("❀ Hubo un error al procesar la URL. Inténtalo nuevamente.")
-  }
-}
+        let api = await fetch(`https://axeel.my.id/api/download/audio?url=${text}`);
+        let json = await api.json();
+        let { title, url, views, thumbnail, likes, description, author } = json.metadata;
 
-handler.help = ['ytmp3 *<link yt>*']
-handler.tags = ['dl']
-handler.command = ['ytmp3', 'yta', 'fgmp3']
+      const doc = {
+      audio: { url: json.downloads.url },
+      mimetype: 'audio/mpeg',
+      fileName: `${title}.mp3`,
+      contextInfo: {
+        externalAdReply: {
+          showAdAttribution: true,
+          mediaType: 2,
+          mediaUrl: url,
+          title: title,
+          sourceUrl: url,
+          thumbnail: thumbnail,
+        }
+      }
+    };
+    await conn.sendMessage(m.chat, doc, { quoted: m })
+        await m.react('✅');
+    } catch (error) {
+        console.error(error);
+        await m.react('❌');
+        conn.reply(m.chat, `☁️ Hubo un error al procesar tu solicitud. Inténtalo de nuevo más tarde.`, m);
+    }
+};
 
-export default handler
+handler.help = ['ytmp3 *<url>*'];
+handler.tags = ['dl'];
+handler.command = /^(ytmp3)$/i;
+
+export default handler;
