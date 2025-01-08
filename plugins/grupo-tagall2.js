@@ -16,11 +16,11 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
 
   const pesan = args.join` `;
   const oi = `*» INFO :* ${pesan}`;
-  let teks = `𝐈𝐍𝐓𝐄𝐆𝐑𝐀𝐍𝐓𝐄𝐒 𝐃𝐄𝐋 𝐂𝐋𝐀𝐍\n\n*╭ ┄ ┄ ┄ ─* *꒰* \`𝐂𝐈𝐁𝐄𝐑 𝐁𝐀𝐍𝐃𝐎 𝟐𝐘𝐊\` *꒱* *┄  ─ ┄*\n`;
+  let teks = `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄\n𝐈𝐍𝐓𝐄𝐆𝐑𝐀𝐍𝐓𝐄𝐒 𝐃𝐄𝐋 𝐂𝐋𝐀𝐍\n\n*╭ ┄ ┄* *꒰* \`𝐂𝐈𝐁𝐄𝐑 𝐁𝐀𝐍𝐃𝐎 𝟐𝐘𝐊\` *꒱* *┄ ┄*\n`;
   for (const mem of participants) {
     teks += `*┊*👑 @${mem.id.split('@')[0]}\n`;
   }
-  teks += `╰⸼ ┄ ┄ ┄ ─  ꒰  ׅ୭ *ᴄɪʙᴇʀ ʙᴀɴᴅᴏ 2ʏᴋ* ୧ ׅ ꒱  ┄  ─ ┄ ⸼`;
+  teks += `*╰⸼ ┄ ┄ ┄*  *꒰* *ᴄɪʙᴇʀ ʙᴀɴᴅᴏ 2ʏᴋ* *꒱*  *┄  ┄*`;
 
   conn.sendMessage(m.chat, { text: teks, mentions: participants.map((a) => a.id) });
 };
